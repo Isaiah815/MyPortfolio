@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+header {
+    background-color: #4B9CD3;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #4B9CD3;
+}
+
+.projects {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+.navbar  a {
+    display: inline-block;
+    color: blueviolet;
+    text-align: left;
+     padding: 14px 20px; 
+    margin: 5px;
+}
+
+.nav-container{
+    background-color: aqua;
+    color: white !important;
+    font-weight: bold;
+    text-align: right;
+}
+.navbar a :hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.navbar a.active{
+    background-color: #4B9CD3;
+}
